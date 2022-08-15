@@ -1,6 +1,6 @@
 ### This is demo of my project
-<img src="https://user-images.githubusercontent.com/83342480/184693240-bd1f792d-aa62-4cd2-b1d6-48ea0dafcd77.png" alt="demo" width="65%">
-![demo](https://user-images.githubusercontent.com/83342480/184693240-bd1f792d-aa62-4cd2-b1d6-48ea0dafcd77.png)
+<img src="https://user-images.githubusercontent.com/83342480/184693240-bd1f792d-aa62-4cd2-b1d6-48ea0dafcd77.png" alt="demo" width="80%">
+
 
 
 # Getting Started with Create React App
