@@ -26,33 +26,38 @@ p.middle-para{
   grid-template-columns: auto auto auto auto;
   column-gap: 30px;
 }
-
-@media(min-width:768px ){
 .track-cards {
   display: grid;
   grid-template-columns: auto auto auto auto;
   column-gap: 30px;
+}
+
+@media(max-width:1200px ){
+  .track-cards{
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media(max-width:960px ){
+    .track-cards{
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+@media(max-width:768px ){
+  .track-cards{
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media(min-width:640px ){
+@media(max-width:640px ){
   .track-cards{
       grid-template-columns: repeat(1, 1fr);
     }
   }
 
-@media(min-width:960px ){
-.track-cards{
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 
-@media(min-width:1200px ){
-  .track-cards{
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
+
 .cards-content {
   height: auto;
   border-radius: 10px;
