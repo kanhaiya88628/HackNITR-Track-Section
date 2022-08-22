@@ -1,10 +1,15 @@
+
+
 .track {
   display: flex;
   flex-direction: column;
   background-color: black;
   padding-left: 110px;
   padding-right: 110px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   color: white;
+ flex-wrap: wrap;
   
   
 }
@@ -22,6 +27,12 @@ p.middle-para{
   grid-template-columns: auto auto auto auto;
   column-gap: 30px;
   
+  @media(min-width:768px ){
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media(min-width:960px ){
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .cards-content {
