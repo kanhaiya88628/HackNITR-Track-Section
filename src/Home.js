@@ -26,7 +26,12 @@ const Home = () => {
             society on the lines of women empowerment, gender emancipation and
             societal justice.
           </p>
-          <img src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Group_1_nhwkro.png" alt="inclusivity icon" width="80%" className="inclusivity-icon"/>
+          <img
+            src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Group_1_nhwkro.png"
+            alt="inclusivity icon"
+            width="80%"
+            className="inclusivity-icon"
+          />
         </div>
 
         <div className="cards-content" id="card2">
@@ -37,7 +42,12 @@ const Home = () => {
             healthcare, education etc. Each and every project that makes our
             lives better will adore this track.
           </p>
-          <img src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Group_121_2_dma5gh.png" alt="community icon" width="65%" className="community-icon"/>
+          <img
+            src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Group_121_2_dma5gh.png"
+            alt="community icon"
+            width="65%"
+            className="community-icon"
+          />
         </div>
 
         <div className="cards-content" id="card3">
@@ -47,7 +57,12 @@ const Home = () => {
             sustainable, including but not limited to teaching others how to
             ethically consume and creating greener technologies for the future.
           </p>
-          <img src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/plant_ukfeoq.png" alt="sustainability icon" width="50%" className="sustainability-icon"/>
+          <img
+            src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/plant_ukfeoq.png"
+            alt="sustainability icon"
+            width="50%"
+            className="sustainability-icon"
+          />
         </div>
 
         <div className="cards-content" id="card4">
@@ -58,7 +73,12 @@ const Home = () => {
             existing ideas and build something unique that aligns with your
             ideas. Like we did to the track name!
           </p>
-          <img src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Saly-43_n6atnu.png" alt="innovity icon" width="65%" className="innovity-icon"/>
+          <img
+            src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Saly-43_n6atnu.png"
+            alt="innovity icon"
+            width="65%"
+            className="innovity-icon"
+          />
         </div>
       </div>
     </div>
