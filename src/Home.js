@@ -19,6 +19,7 @@ const Home = () => {
 
       <div className="track-cards">
         <div className="cards-content" id="card1">
+          <div className="card-head">
           <h4>INCLUSIVITY</h4>
           <p>
             This track is a reminder of the beauty of inclusion and equality.
@@ -26,6 +27,7 @@ const Home = () => {
             society on the lines of women empowerment, gender emancipation and
             societal justice.
           </p>
+          </div>
           <img
             src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Group_1_nhwkro.png"
             alt="inclusivity icon"
@@ -35,6 +37,7 @@ const Home = () => {
         </div>
 
         <div className="cards-content" id="card2">
+          <div className="card-head">
           <h4>COMMUNITY</h4>
           <p>
             This track serves to build for the community. Build for solving the
@@ -42,6 +45,7 @@ const Home = () => {
             healthcare, education etc. Each and every project that makes our
             lives better will adore this track.
           </p>
+          </div>
           <img
             src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Group_121_2_dma5gh.png"
             alt="community icon"
@@ -51,12 +55,14 @@ const Home = () => {
         </div>
 
         <div className="cards-content" id="card3">
+          <div className="card-head">
           <h4>SUSTAINABILITY</h4>
           <p>
             This track will seek to build projects that will make our lives more
             sustainable, including but not limited to teaching others how to
             ethically consume and creating greener technologies for the future.
           </p>
+          </div>
           <img
             src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/plant_ukfeoq.png"
             alt="sustainability icon"
@@ -66,6 +72,7 @@ const Home = () => {
         </div>
 
         <div className="cards-content" id="card4">
+          <div className="card-head">
           <h4>OPEN INNOVITY</h4>
           <p>
             This track demands creativity. Don't feel afraid to think out of the
@@ -73,6 +80,7 @@ const Home = () => {
             existing ideas and build something unique that aligns with your
             ideas. Like we did to the track name!
           </p>
+          </div>
           <img
             src="https://res.cloudinary.com/db4zymomi/image/upload/hacknitr/Saly-43_n6atnu.png"
             alt="innovity icon"
